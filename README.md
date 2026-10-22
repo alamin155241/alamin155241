@@ -14,7 +14,7 @@ I study Internet of Things and Robotics Engineering at the **University of Front
 
 ## Selected projects
 
-### Neuro-Symbolic AI-Driven Rice Leaf Disease Detection
+### [Neuro-Symbolic AI-Driven Rice Leaf Disease Detection](https://github.com/alamin155241/rice-leaf-neuro-symbolic-ai)
 
 A rice leaf disease detection system using machine learning and a mobile application, with an AI-based detection and reasoning workflow.
 
@@ -22,12 +22,12 @@ A rice leaf disease detection system using machine learning and a mobile applica
 - **Stack:** Python, TensorFlow, Keras, MobileNetV2, DenseNet121, EfficientNetB0, Flutter, FastAPI, and TensorFlow Lite.
 - **Status:** core model development and evaluation completed; mobile integration and documentation ongoing.
 
-### IoT-Based Smart Home Automation
+### [IoT-Based Smart Home Automation](https://github.com/alamin155241/esp32-arduino-smart-home)
 
 A prototype using **ESP32 and Arduino UNO**, with manual and automatic control modes and remote web control.
 
 - **My contribution:** sensor interfacing, microcontroller communication, relay control, automatic control logic, and web-based remote control.
-- **Stack:** Arduino IDE, I2C, DHT11, MQ-series gas sensor, rain and ultrasonic sensors, servo motor, relay module, and PHP.
+- **Stack:** Arduino IDE, UART, Adafruit IO, DHT11, MQ-series gas sensor, rain and ultrasonic sensors, servo motor, and relay module. The public snapshot includes a browser telemetry dashboard.
 - **Status:** prototype developed.
 
 Read more about these projects on my [portfolio](https://alamin155241.github.io/#projects).
@@ -35,6 +35,12 @@ Read more about these projects on my [portfolio](https://alamin155241.github.io/
 ### [Docker To-Do Web Application](https://github.com/alamin155241/CC_482_LAB_MID_PROJECT)
 
 A Cloud Computing lab project using **Python, Flask, and Docker**. It supports adding, listing, and deleting tasks, with an in-memory task list and a containerized development setup. Source code and local run instructions are available in the repository.
+
+## More engineering source
+
+- [FarmGuard-AI](https://github.com/alamin155241/farmguard-ai) - IoT & machine learning.
+- [ROS 2 Gazebo Joint Simulation](https://github.com/alamin155241/ros2-gazebo-joint-simulation) - Robotics.
+- [SMS Spam Detection with Naive Bayes](https://github.com/alamin155241/sms-spam-naive-bayes) - Machine learning.
 
 ## Technical toolkit
 
