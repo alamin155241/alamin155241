@@ -34,7 +34,19 @@ Read more about these projects on my [portfolio](https://alamin155241.github.io/
 
 ### [Docker To-Do Web Application](https://github.com/alamin155241/CC_482_LAB_MID_PROJECT)
 
-A Cloud Computing lab project using **Python, Flask, and Docker**. It supports adding, listing, and deleting tasks, with an in-memory task list and a containerized development setup. Source code and local run instructions are available in the repository.
+A containerized task-management web application developed for a Cloud Computing lab. Built with **Python 3.11, Flask 3.0.3, and Docker**, it supports adding, viewing, and deleting tasks through a responsive interface.
+
+- **Implementation:** Flask routes (`GET /`, `POST /add`, and `POST /delete/<task_id>`), Jinja templates, and a Dockerfile.
+- **Run:** build the image with `docker build -t todo-app .` and run it with `docker run -d -p 127.0.0.1:5000:5000 --name todo-container todo-app`.
+- **Limitation:** tasks are stored in process memory and reset when the application restarts; there is no database or authentication.
+
+### RTOS Scheduling Analysis — ESP32 / FreeRTOS
+
+An **in-progress experimental study** planned around an ESP32 running FreeRTOS. The intended comparison covers **FCFS, fixed-priority, and Earliest Deadline First (EDF)** scheduling, using task timing and deadline-related measurements to examine scheduling behavior on an IoT node.
+
+- **Current scope:** project plan / research direction; implementation and measured results are not yet published.
+- **Planned platform:** ESP32, FreeRTOS, and embedded C/C++.
+- **Research focus:** compare scheduling behavior under a defined task workload and report methodology and measurements transparently.
 
 ## More engineering source
 
